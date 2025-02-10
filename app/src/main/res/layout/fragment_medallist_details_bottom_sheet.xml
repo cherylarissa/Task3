@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewIocCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IOC Code" />
+
+    <TextView
+        android:id="@+id/textViewTimesCompeted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Times Competed" />
+
+    <TextView
+        android:id="@+id/textViewGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gold" />
+
+    <TextView
+        android:id="@+id/textViewSilver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silver" />
+
+    <TextView
+        android:id="@+id/textViewBronze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bronze" />
+
+</LinearLayout>
